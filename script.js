@@ -1,5 +1,5 @@
 // complete this js code
-function Person {
+class Person {
 	 constructor(name,age){
 		 this.name=name;
 		 this.age=age;
@@ -9,7 +9,7 @@ function Person {
 	}
 }
 
-function Employee extends Person {
+class Employee extends Person {
 	constructor(name, age, jobTitle){
 		super(name,age);
 		this.jobTitle=jobTitle
