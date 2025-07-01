@@ -21,5 +21,7 @@ class Employee extends Person {
 }
 
 // Do not change code below this line
+person.greet();
+employee.jobGreet();
 window.Person = Person;
 window.Employee = Employee;
